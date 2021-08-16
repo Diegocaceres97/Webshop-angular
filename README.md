@@ -1,6 +1,7 @@
 # PlatziAppStore
 
 This project shows a simple webshop with some functionality like consume of api and more.
+![image](https://user-images.githubusercontent.com/52796337/129598824-4e7fd05b-0e96-42ce-84fd-b4f6093dafad.png)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
