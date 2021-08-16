@@ -1,0 +1,21 @@
+.row{
+    background-color: #3F51B5;
+    height:43%;
+    color: white;
+    width: 100vw;
+    bottom:0;
+}
+.box{
+    text-align:center;
+}
+.box p {
+    padding-bottom: 25px;
+    width: 20ch;
+}
+
+@media (max-width:1280px){
+    .row{
+        height: 60vh;
+    }
+   
+}

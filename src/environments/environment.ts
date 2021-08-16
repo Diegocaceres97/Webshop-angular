@@ -3,14 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url_api: 'http://platzi-store.herokuapp.com/products',
+   firebaseConfig : {
+    apiKey: 'AIzaSyBmiISznXoI7eHzQD-ok4xTuRT37NxklgM',
+    authDomain: 'platzi-store-106b0.firebaseapp.com',
+    projectId: 'platzi-store-106b0',
+    storageBucket: 'platzi-store-106b0.appspot.com',
+    messagingSenderId: '140283742822',
+    appId: '1:140283742822:web:bf8263bcc63749bec4fba7',
+  }
 };
 
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
